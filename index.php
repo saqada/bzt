@@ -1,6 +1,5 @@
 <html>
 <head>
-
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Зитва За Трон</title>
 	<link href="https://epicwarru-a.akamaihd.net/iframe_v2//css/feedback.v2.css?_nxv=1b99dbe" rel="stylesheet" type="text/css" media="all" />
