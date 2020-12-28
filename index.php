@@ -4,8 +4,6 @@
 	<title>Зитва За Трон</title>
 	<link href="https://epicwarru-a.akamaihd.net/iframe_v2//css/feedback.v2.css?_nxv=1b99dbe" rel="stylesheet" type="text/css" media="all" />
 </head>
-
-
 	<body oncontextmenu="return false;" class="bg--throne">
 		<div id="flash-wrapper" style="width: 100%;">
 			<style>
