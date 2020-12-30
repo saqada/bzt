@@ -280,6 +280,8 @@ function getRandom() {
 			default:
 				closeWindow();
 		}
+		
+		notifyApp();
 	}
 
 	if (window.addEventListener) {
