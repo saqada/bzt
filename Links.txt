@@ -7,3 +7,4 @@ https://raw.githubusercontent.com/saqada/bzt/master/Start.js
 
 https://epicwarru-a.akamaihd.net/mm/v0784/assets/Start.js
 https://epicwarru-a.akamaihd.net/mm/v0801/assets/Start.js
+https://epicwarru-a.akamaihd.net/mm/v0805/assets/Start.js
