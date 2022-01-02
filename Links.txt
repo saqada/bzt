@@ -4,6 +4,9 @@ replace on 2 lines: 381 and 398
 
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js
 
+file:///C:/GIT/BZT/Start.js
+http://localhost/Start.js
+
 
 https://epicwarru-a.akamaihd.net/mm/v0784/assets/Start.js
 https://epicwarru-a.akamaihd.net/mm/v0801/assets/Start.js
