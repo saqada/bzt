@@ -3,6 +3,13 @@ replace on 2 lines: 381 and 398
 
 
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref1
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref2
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref3
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref4
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref5
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref6
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref7
 
 file:///C:/GIT/BZT/Start.js // doesn't work for Ajax. Use local webserver
 http://localhost/Start.js // doesn't work with http. use https
