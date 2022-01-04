@@ -3,6 +3,7 @@ replace on 2 lines: 381 and 398
 
 
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js
+https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref1
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref2
 https://raw.githubusercontent.com/saqada/bzt/master/Start.js#ref3
