@@ -1,0 +1,3 @@
+Set proxy data of Charles to Firefox browser manually
+in Charles enable SSL Proxying only for url https://i-epicwar-mm.nextersglobal.com
+after finishing using Charles, exit from it and disable proxy in Firefox 
