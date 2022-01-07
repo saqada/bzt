@@ -1,3 +1,8 @@
 Set proxy data of Charles to Firefox browser manually
 in Charles enable SSL Proxying only for url https://i-epicwar-mm.nextersglobal.com
 after finishing using Charles, exit from it and disable proxy in Firefox 
+
+
+// disable screen lock in Ubuntu: https://askubuntu.com/a/1064704
+gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
+gsettings set org.gnome.desktop.screensaver lock-enabled false
