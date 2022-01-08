@@ -7,13 +7,18 @@ after finishing using Charles, exit from it and disable proxy in Firefox
 gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 
+
+https://linuxcommandlibrary.com/man/xdotool
 // install xdotool
-sudo pacman -S xdotool
+sudo apt-get install -y xdotool
 
 // some commands
 xdotool search --class firefox windowactivate
 xdotool getmouselocation
-xdotool click --repeat 100 --delay 5000 1
+xdotool click --repeat 100000 --delay 10000 1
+
+// kill xdotool process
+pkill -f xdotool
 
 
 // create .sh file with content:
@@ -23,3 +28,14 @@ xdotool click --repeat 100 --delay 5000 1
 	
 // execute it from terminal 
 ./myscript.sh
+
+
+
+// alternative bash command:
+#!/bin/sh
+	while true; do
+	xdotool mousemove 20 20
+	sleep 3
+	xdotool mousemove 20 40
+	sleep 1
+	done
