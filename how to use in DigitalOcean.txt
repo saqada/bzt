@@ -6,3 +6,20 @@ after finishing using Charles, exit from it and disable proxy in Firefox
 // disable screen lock in Ubuntu: https://askubuntu.com/a/1064704
 gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
 gsettings set org.gnome.desktop.screensaver lock-enabled false
+
+// install xdotool
+sudo pacman -S xdotool
+
+// some commands
+xdotool search --class firefox windowactivate
+xdotool getmouselocation
+xdotool click --repeat 100 --delay 5000 1
+
+
+// create .sh file with content:
+	while true; do
+	xdotool click --repeat 100 --delay 5000 1; sleep 1
+	done
+	
+// execute it from terminal 
+./myscript.sh
