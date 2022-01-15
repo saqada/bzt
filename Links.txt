@@ -16,6 +16,8 @@ file:///C:/GIT/BZT/Start.js // doesn't work for Ajax. Use local webserver
 http://localhost/Start.js // doesn't work with http. use https
 
 
+https://epicwarru-a.akamaihd.net/mm/v0718/assets/Start.js
 https://epicwarru-a.akamaihd.net/mm/v0784/assets/Start.js
 https://epicwarru-a.akamaihd.net/mm/v0801/assets/Start.js
 https://epicwarru-a.akamaihd.net/mm/v0805/assets/Start.js
+https://epicwarru-a.akamaihd.net/mm/v834/assets/Start.js  // latest by 15.01.22
