@@ -1,0 +1,23 @@
+function runCheck() {
+	console.clear()	
+	
+
+	fetch("https://epicwar-mm.nextersglobal.com/api/", {"credentials": "omit","headers": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0","Accept": "*/*","Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3","X-Request-Id": "60","X-Auth-Network-Ident": "mail","X-Auth-Application-Id": "710278","X-Auth-User-Id": "1418816775246942698","X-Auth-Session-Id": "00qlotn003v828","X-Auth-Session-Key": "28914c75ac9ad7e42b17fae08b3e63dc","X-Env-Library-Version": "0","X-Requested-With": "XMLHttpRequest","X-Server-Time": "1608551295","X-Auth-Token": "ps-CFipEOrj-1608550674-176.199.210.230-89a9a09bb0775b4eb3dea93786ea56f1","X-Auth-Signature": "53809f8ac81ade3c4eaab1c985bf6bc8","Content-Type": "application/json; charset=UTF-8"},"referrer": "https://i-epicwar-mm.nextersglobal.com/iframe_social/mail/epicwar/index.php?is_app_user=1&session_key=28914c75ac9ad7e42b17fae08b3e63dc&vid=1418816775246942698&oid=1418816775246942698&app_id=710278&authentication_key=6ed05d507129c534b2a36f7d3ea3fd0c&session_expire=1608637070&ext_perm=photos%2Cfriends%2Cevents%2Cguestbook%2Cmessages%2Cnotifications%2Cstream%2Cemails%2Cpayments&sig=c92a3d26e0c2d8ed0a88e5f9b59b3e53&window_id=CometName_385a0e51df420eb8209576805be6124c&referer_type=wo_ref","body": "{\"calls\":[{\"name\":\"alliance_help_sendHelp\",\"args\":{},\"ident\":\"group_0_body\"},{\"name\":\"state\",\"args\":{},\"ident\":\"group_1_body\"}]}","method": "POST","mode": "cors"})
+								.then(res => res.json())
+								.then((response) => {
+									  console.log("Help sent");
+								});
+
+    if (running)
+	   setTimeout(runCheck, period)
+}
+
+
+var running = true;
+var period = 30000;
+
+runCheck();
+
+
+// 989
+// 1007
