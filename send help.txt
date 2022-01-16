@@ -1,11 +1,12 @@
 function runCheck() {
-	console.clear()	
+	//console.clear()	
 	
 
-	fetch("https://epicwar-mm.nextersglobal.com/api/", {"credentials": "omit","headers": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0","Accept": "*/*","Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3","X-Request-Id": "60","X-Auth-Network-Ident": "mail","X-Auth-Application-Id": "710278","X-Auth-User-Id": "1418816775246942698","X-Auth-Session-Id": "00qlotn003v828","X-Auth-Session-Key": "28914c75ac9ad7e42b17fae08b3e63dc","X-Env-Library-Version": "0","X-Requested-With": "XMLHttpRequest","X-Server-Time": "1608551295","X-Auth-Token": "ps-CFipEOrj-1608550674-176.199.210.230-89a9a09bb0775b4eb3dea93786ea56f1","X-Auth-Signature": "53809f8ac81ade3c4eaab1c985bf6bc8","Content-Type": "application/json; charset=UTF-8"},"referrer": "https://i-epicwar-mm.nextersglobal.com/iframe_social/mail/epicwar/index.php?is_app_user=1&session_key=28914c75ac9ad7e42b17fae08b3e63dc&vid=1418816775246942698&oid=1418816775246942698&app_id=710278&authentication_key=6ed05d507129c534b2a36f7d3ea3fd0c&session_expire=1608637070&ext_perm=photos%2Cfriends%2Cevents%2Cguestbook%2Cmessages%2Cnotifications%2Cstream%2Cemails%2Cpayments&sig=c92a3d26e0c2d8ed0a88e5f9b59b3e53&window_id=CometName_385a0e51df420eb8209576805be6124c&referer_type=wo_ref","body": "{\"calls\":[{\"name\":\"alliance_help_sendHelp\",\"args\":{},\"ident\":\"group_0_body\"},{\"name\":\"state\",\"args\":{},\"ident\":\"group_1_body\"}]}","method": "POST","mode": "cors"})
+	fetch("https://epicwar-mail.nextersglobal.com/api/", { "headers": { "accept": "*/*", "accept-language": "en-US,en;q=0.9,de;q=0.8,ru;q=0.7", "content-type": "application/json; charset=UTF-8", "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"97\", \"Chromium\";v=\"97\"", "sec-ch-ua-mobile": "?1", "sec-ch-ua-platform": "\"Android\"", "sec-fetch-dest": "empty", "sec-fetch-mode": "cors", "sec-fetch-site": "same-site", "x-auth-application-id": "710278", "x-auth-network-ident": "mail", "x-auth-session-id": "00r5szd003du0g", "x-auth-session-key": "f86fc226e02de3d651871be945824da9", "x-auth-signature": "2067ccdb317a8d14ad8483dfeb60fee2", "x-auth-token": "ps-TUixB3b3-1642337059-176.199.210.115-1965d514ed24b7b9a891c1d67a65ff64", "x-auth-user-id": "1418816775246942698", "x-env-library-version": "0", "x-request-id": "223", "x-requested-with": "XMLHttpRequest", "x-server-time": "1642338039" }, "referrer": "https://i-epicwar-mm.nextersglobal.com/", "referrerPolicy": "strict-origin-when-cross-origin", "body": "{\"calls\":[{\"name\":\"alliance_help_sendHelp\",\"args\":{},\"ident\":\"group_0_body\"},{\"name\":\"state\",\"args\":{},\"ident\":\"group_1_body\"}]}", "method": "POST", "mode": "cors", "credentials": "omit" })
 								.then(res => res.json())
 								.then((response) => {
-									  console.log("Help sent");
+								      var dateTime = new Date().toLocaleTimeString() + " (" + new Date().toLocaleDateString() + ")";
+									  console.log("IRLOG: Help sent. Date: " + dateTime);
 								});
 
     if (running)
