@@ -202,8 +202,7 @@ com_progrestar_game_server_RpcManager.sendCustomRequest("getRecoverableUnits",pa
 
 
 
-// hardly got 79%
-// 10100000000000001919
+// hardly got 79% for 10100000000000001919
 
 
 
